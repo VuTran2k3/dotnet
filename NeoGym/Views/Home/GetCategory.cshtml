@@ -1,0 +1,20 @@
+﻿@model IEnumerable<NeoGym.Models.Category>
+
+@foreach (var i in Model)
+{
+    <a href="@Url.Action("Index", "Product", new {meta = i.meta})" class="col-lg-3 col-md-6">
+        <div class="box">
+            <div class="img-box">
+                <img src="~/Content/images/@i.link" alt="">
+            </div>
+            <div class="detail-box">
+                <h5>
+                    @i.name
+                </h5>
+                <p>
+                    
+                </p>
+            </div>
+        </div>
+    </a>
+}

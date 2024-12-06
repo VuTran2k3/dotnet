@@ -1,0 +1,33 @@
+﻿@model IEnumerable<NeoGym.Models.News>
+@{
+    ViewBag.Title = "News";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container-fluid">
+    <div class="heading_container row">
+        <h2 class="text-white col">Tin tức sự kiện </h2>
+    </div>
+    <div class="row">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-12 mx-auto">
+
+                    @foreach (var i in Model)
+                    {
+                        <div class="detail-box mb-3">
+                            <h3 class="text-white">@i.title</h3>
+                            <div class="row">
+                                <h5 class="col-10 text-white">@i.description</h5>
+                                <div class="btn-box col">
+                                    <a href="@Url.Action("Detail", "News", new { id = i.Id })">Xem chi tiết</a> 
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div><!--end Hero-area div-->

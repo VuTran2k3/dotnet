@@ -1,0 +1,54 @@
+﻿@model IEnumerable<NeoGym.Models.menu>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+<div id="page-wrapper">
+    <h2>Quản lí menu</h2>
+
+    <button class="btn-default align-self-end">
+        @Html.ActionLink("Tạo menu mới", "Create", "Menu")
+    </button>
+    <table class="table">
+        <tr>
+            <th>
+                Tên
+            </th>
+            <th>
+                Meta
+            </th>
+            <th>
+                Hiển thị
+            </th>
+            <th>
+                Thứ tự
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.meta)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.hide)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.order)
+                </td>
+                <td>
+                    <button class="btn-outline-success">@Html.ActionLink("Edit", "Edit", new { id = item.id })</button>
+                    <button class="btn-outline-success">@Html.ActionLink("Details", "Details", new { id = item.id })</button>
+                    <button class="btn-outline-success">@Html.ActionLink("Delete", "Delete", new { id = item.id })</button>
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>

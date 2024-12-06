@@ -1,0 +1,78 @@
+﻿@model IEnumerable<NeoGym.Models.Club>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+<div id="page-wrapper" class="">
+    <h2>Quản lí CLB</h2>
+
+    <p>
+        <button class="btn-default">@Html.ActionLink("Tạo mới", "Create")</button>
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                Tên
+            </th>
+            <th>
+                Link
+            </th>
+            <th>
+                Mô tả
+            </th>
+            <th>
+                Hình
+            </th>
+            <th>
+                Giá
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.meta)
+            </th>
+            <th>
+                Hiển thị
+            </th>
+            <th>
+                Thứ tự
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.link)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.description)
+                </td>
+                <td>
+                    <img src="~/Content/images/club/@item.image" class="h-25" style="max-height:100px"/>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.meta)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.hide)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.order)
+                </td>
+                <td>
+                    <button class="btn-outline-success">@Html.ActionLink("Edit", "Edit", new { id = item.id })</button>
+                    <button class="btn-outline-success">@Html.ActionLink("Details", "Details", new { id = item.id })</button>
+                    <button class="btn-outline-success">@Html.ActionLink("Delete", "Delete", new { id = item.id })</button>
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>

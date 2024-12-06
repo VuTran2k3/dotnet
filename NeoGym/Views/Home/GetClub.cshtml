@@ -1,0 +1,18 @@
+﻿@model IEnumerable<NeoGym.Models.Club>
+
+@foreach (var i in Model)
+{
+    <div class="box col-lg-3 col-md-4 col-sm mx-auto">
+        <div class="img-box">
+            <img src="~/Content/images/Club/@i.image" alt="" style="max-block-size:200px">
+        </div>
+        <div class="detail-box">
+            <h3>
+                @i.name
+            </h3>
+            <p>
+
+            </p>
+        </div>
+    </div>
+}

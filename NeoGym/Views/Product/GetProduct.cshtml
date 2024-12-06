@@ -1,0 +1,17 @@
+﻿@model IEnumerable<NeoGym.Models.Product>
+<style>
+    .img-box {
+        align-items: center;
+        max-height: 200px
+    }
+</style>
+@foreach (var i in Model)
+{
+    <div class="col-lg-3 col-md-4 col-1 center">
+        <p class="text-white">@i.name</p>
+        <a class="py-auto " href="@Url.Action("Detail", "Product", new {type1 = "san-pham", type2 = "chi-tiet",  meta = i.meta })">
+            <img class="img-box bg-white" src="~/Content/images/product/@i.image" alt="@i.name" />
+        </a>
+    </div>
+}
+

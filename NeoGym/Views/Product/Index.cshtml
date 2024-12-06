@@ -1,0 +1,21 @@
+﻿@model IEnumerable<NeoGym.Models.Category>
+@{
+    ViewBag.Title = "san-pham";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<section class="trainer_section layout_padding2-top">
+    <div class="container">
+        <div class="heading_container">
+            <h2>
+                Sản Phẩm
+            </h2>
+        </div>
+        @foreach (var i in Model)
+        {
+            <a href="@Url.Action("Index", "Product", new {meta = i.meta})"><h3 class="border mt-3 bg-primary text-center">@i.name</h3></a>
+            <div class="row mb-5">
+                @Html.Action("GetProduct", new { id = i.id })
+            </div>
+        }
+    </div>
+</section>

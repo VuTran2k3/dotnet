@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\TDTU\\2024-2025\\HKI\\dotNet\\demo\\NeoGym\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{16AD6323-FBCE-4401-9BF2-F72E9C5D8666}|NeoGym.csproj|d:\\tdtu\\2024-2025\\hki\\dotnet\\demo\\neogym\\views\\product\\getproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16AD6323-FBCE-4401-9BF2-F72E9C5D8666}|NeoGym.csproj|solutionrelative:views\\product\\getproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16AD6323-FBCE-4401-9BF2-F72E9C5D8666}|NeoGym.csproj|d:\\tdtu\\2024-2025\\hki\\dotnet\\demo\\neogym\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16AD6323-FBCE-4401-9BF2-F72E9C5D8666}|NeoGym.csproj|solutionrelative:app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16AD6323-FBCE-4401-9BF2-F72E9C5D8666}|NeoGym.csproj|D:\\TDTU\\2024-2025\\HKI\\dotNet\\demo\\NeoGym\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16AD6323-FBCE-4401-9BF2-F72E9C5D8666}|NeoGym.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16AD6323-FBCE-4401-9BF2-F72E9C5D8666}|NeoGym.csproj|D:\\TDTU\\2024-2025\\HKI\\dotNet\\demo\\NeoGym\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16AD6323-FBCE-4401-9BF2-F72E9C5D8666}|NeoGym.csproj|solutionrelative:areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16AD6323-FBCE-4401-9BF2-F72E9C5D8666}|NeoGym.csproj|D:\\TDTU\\2024-2025\\HKI\\dotNet\\demo\\NeoGym\\areas\\admin\\views\\clubs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16AD6323-FBCE-4401-9BF2-F72E9C5D8666}|NeoGym.csproj|solutionrelative:areas\\admin\\views\\clubs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16AD6323-FBCE-4401-9BF2-F72E9C5D8666}|NeoGym.csproj|D:\\TDTU\\2024-2025\\HKI\\dotNet\\demo\\NeoGym\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16AD6323-FBCE-4401-9BF2-F72E9C5D8666}|NeoGym.csproj|solutionrelative:areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "D:\\TDTU\\2024-2025\\HKI\\dotNet\\demo\\NeoGym\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\RouteConfig.cs",
+              "ToolTip": "D:\\TDTU\\2024-2025\\HKI\\dotNet\\demo\\NeoGym\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T08:48:09.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetProduct.cshtml",
+              "DocumentMoniker": "D:\\TDTU\\2024-2025\\HKI\\dotNet\\demo\\NeoGym\\Views\\Product\\GetProduct.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\GetProduct.cshtml",
+              "ToolTip": "D:\\TDTU\\2024-2025\\HKI\\dotNet\\demo\\NeoGym\\Views\\Product\\GetProduct.cshtml",
+              "RelativeToolTip": "Views\\Product\\GetProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T08:40:12.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\TDTU\\2024-2025\\HKI\\dotNet\\demo\\NeoGym\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "D:\\TDTU\\2024-2025\\HKI\\dotNet\\demo\\NeoGym\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T08:31:58.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\TDTU\\2024-2025\\HKI\\dotNet\\demo\\NeoGym\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\TDTU\\2024-2025\\HKI\\dotNet\\demo\\NeoGym\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAqwEYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T07:52:42.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\TDTU\\2024-2025\\HKI\\dotNet\\demo\\NeoGym\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ToolTip": "D:\\TDTU\\2024-2025\\HKI\\dotNet\\demo\\NeoGym\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T07:30:31.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\TDTU\\2024-2025\\HKI\\dotNet\\demo\\NeoGym\\Areas\\Admin\\Views\\Clubs\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Clubs\\Create.cshtml",
+              "ToolTip": "D:\\TDTU\\2024-2025\\HKI\\dotNet\\demo\\NeoGym\\Areas\\Admin\\Views\\Clubs\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Clubs\\Create.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAkwCoAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T07:28:18.93Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

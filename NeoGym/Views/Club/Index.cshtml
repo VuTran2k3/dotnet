@@ -1,0 +1,38 @@
+﻿@model IEnumerable<NeoGym.Models.Club>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid">
+    <div class="heading_container row">
+        <h2 class="text-white col">Câu lạc bộ </h2>
+    </div>
+    <div class="row">
+        <div class="container">
+
+            <div class="row">
+
+                <style>
+                    .img-box {
+                        align-items: center;
+                        max-height: 200px;
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                </style>
+                @foreach (var i in Model)
+                {
+                    <a href="@Url.Action("Index", "Contact")" class="col-lg-3 col-md-4 col-1">
+                        <h3 class="text-white text-center">@i.name</h3>
+                        @*<a class="py-auto " href="@Url.Action("Detail", "Product", new { id = i.id })">*@
+                        <img class="img-box center bg-white" src="~/Content/images/club/@i.image" alt="@i.name" />
+                        @*</a>*@
+                    </a>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+</div><!--end Hero-area div-->
